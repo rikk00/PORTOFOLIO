@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 import AnimatedSection from "./AnimatedSection";
+import Image from "next/image";
 
 export default function About() {
   const { t } = useLanguage();
@@ -17,10 +18,12 @@ export default function About() {
 
         <div className="mt-12 grid gap-12 md:grid-cols-[0.85fr_1.15fr] md:gap-16">
           <AnimatedSection delay={80}>
-            {/*
-              EDIT ME: swap this placeholder for a Next.js <Image /> pointing
-              at your own photo, e.g. /public/images/profile-placeholder.jpg
-            */}
+          <Image
+            src="/images/about.jpg"
+            alt="Your name"
+            fill
+            className="object-cover rounded-2xl"
+          />
             <div className="flex aspect-square items-center justify-center rounded-2xl border border-ink/10 bg-mist-100/70 dark:border-mist-100/10 dark:bg-navy-800/60">
               <span className="text-sm font-medium uppercase tracking-[0.14em] text-ink/40 dark:text-mist-100/40">
                 {t.hero.photoPlaceholder}

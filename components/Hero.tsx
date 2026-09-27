@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 import { profile } from "@/data/portfolio";
+import Image from "next/image";
 
 export default function Hero() {
   const { t, pick } = useLanguage();
@@ -50,14 +51,14 @@ export default function Hero() {
 
         <div className="relative mx-auto aspect-[4/5] w-full max-w-sm">
           <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-teal-400/25 via-transparent to-navy-700/10 blur-2xl" />
-          {/*
-            EDIT ME: replace this placeholder block with a Next.js <Image />
-            pointing at your own photo, e.g. /public/images/profile-placeholder.jpg
-          */}
-          <div className="motion-safe:animate-float flex h-full w-full items-center justify-center rounded-[2rem] border border-ink/10 bg-mist-100/70 shadow-soft backdrop-blur-sm dark:border-mist-100/10 dark:bg-navy-800/60">
-            <span className="text-sm font-medium uppercase tracking-[0.18em] text-ink/40 dark:text-mist-100/40">
-              {t.hero.photoPlaceholder}
-            </span>
+          <div className="motion-safe:animate-float relative h-full w-full overflow-hidden rounded-[2rem] border border-ink/10 shadow-soft dark:border-mist-100/10">
+            <Image
+              src="/images/test.png"
+              alt={t.hero.photoAlt}
+              fill
+              priority
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

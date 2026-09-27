@@ -44,7 +44,7 @@ export default function Navbar() {
             href="#hero"
             className="font-display text-lg font-semibold text-ink dark:text-mist-50"
           >
-            Lorem<span className="text-teal-600 dark:text-teal-400">.</span>
+            MyPortofolio<span className="text-teal-600 dark:text-teal-400">.</span>
           </a>
 
           <nav aria-label="Primary" className="hidden items-center gap-1 md:flex">

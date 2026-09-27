@@ -15,10 +15,10 @@ export const translations = {
     },
     hero: {
       greeting: "Hello, I'm",
-      name: "Lorem Ipsum",
-      title: "Product Designer & Frontend Developer",
+      name: "Hendrico Daniel",
+      title: "Management & Operational",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. I design and build thoughtful digital products, turning complex problems into calm, usable interfaces.",
+        "Hello, I am Hendrico Daniel. An English Literature graduate from Universitas Mulawarman. Currently I'm exploring outside my specialties, learning data analysis and visualization by Project Based Learning (Mini Project)",
       ctaPrimary: "View My Projects",
       ctaSecondary: "Contact Me",
       photoAlt: "Your photo",
@@ -28,13 +28,13 @@ export const translations = {
       eyebrow: "About",
       heading: "A little about me",
       bio1:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+        "Hello, I am Hendrico Daniel. An English Literature graduate from Universitas Mulawarman with hands-on experience as a retail Store Supervisor. Skilled in store operations, inventory management, data-driven promotional content creation, and active organizational leadership.",
       bio2:
-        "Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "I also like to do a mini project to learn new things, the goals it to ease the process in daily task",
       cards: {
-        location: { label: "Location", value: "Jakarta, Indonesia" },
-        focus: { label: "Focus", value: "Product Design & Frontend" },
-        experience: { label: "Experience", value: "3+ Years" },
+        location: { label: "Location", value: "Bontang, Indonesia" },
+        focus: { label: "Focus", value: "Research and Development" },
+        experience: { label: "Experience", value: "Fresh Graduate" },
         availability: { label: "Availability", value: "Open to work" },
       },
     },
@@ -42,7 +42,7 @@ export const translations = {
       eyebrow: "Work",
       heading: "My Project",
       description:
-        "A selection of projects I've designed and built. Replace these placeholders with your own work.",
+        "A selection of projects I've designed and built.",
       filters: {
         all: "All",
         web: "Web",
@@ -76,12 +76,12 @@ export const translations = {
     education: {
       eyebrow: "Background",
       heading: "Education",
-      description: "My academic journey so far.",
+      description: "My recent academic journey.",
     },
     experience: {
       eyebrow: "Journey",
       heading: "Experience",
-      description: "Where I've worked and what I've been building.",
+      description: "Where I've worked and what I've been building (Includes Internships).",
       responsibilitiesLabel: "Key responsibilities",
     },
     contact: {
@@ -95,7 +95,7 @@ export const translations = {
       instagramLabel: "Instagram",
     },
     footer: {
-      rights: "All rights reserved.",
+      rights: "@hendriko.daniel",
       builtWith: "Built with Next.js & Tailwind CSS.",
       backToTop: "Back to top",
     },
@@ -122,10 +122,10 @@ export const translations = {
     },
     hero: {
       greeting: "Halo, saya",
-      name: "Lorem Ipsum",
-      title: "Product Designer & Frontend Developer",
+      name: "Hendrico Daniel",
+      title: "Manajemen & Operasional",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Saya merancang dan membangun produk digital yang matang secara konsep, mengubah masalah rumit menjadi antarmuka yang tenang dan mudah digunakan.",
+        "Halo, saya Hendrico Daniel. Lulusan Sastra Inggris dari Universitas Mulawarman. Saat ini saya sedang mengeksplorasi di luar spesialisasi saya, belajar analisis dan visualisasi data melalui Project Based Learning (Mini Project)",
       ctaPrimary: "Lihat Proyek Saya",
       ctaSecondary: "Hubungi Saya",
       photoAlt: "Foto Anda",
@@ -135,13 +135,13 @@ export const translations = {
       eyebrow: "Tentang",
       heading: "Sedikit tentang saya",
       bio1:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+        "Halo, Saya Hendrico Daniel. Lulusan Sastra Inggris dari Universitas Mulawarman dengan pengalaman langsung sebagai Supervisor Toko Ritel. Terampil dalam operasi toko, manajemen inventaris, pembuatan konten promosi berbasis data, dan kepemimpinan organisasi yang aktif.",
       bio2:
-        "Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Saya juga termotivasi untuk melakukan proyek mini untuk mempelajari hal baru, dengan tujuan mempermudah proses dalam tugas sehari-hari.",
       cards: {
-        location: { label: "Lokasi", value: "Jakarta, Indonesia" },
-        focus: { label: "Fokus", value: "Product Design & Frontend" },
-        experience: { label: "Pengalaman", value: "3+ Tahun" },
+        location: { label: "Lokasi", value: "Bontang, Indonesia" },
+        focus: { label: "Fokus", value: "Penelitian dan Pengembangan" },
+        experience: { label: "Pengalaman", value: "Fresh Graduate" },
         availability: { label: "Ketersediaan", value: "Terbuka untuk kerja" },
       },
     },
@@ -149,7 +149,7 @@ export const translations = {
       eyebrow: "Karya",
       heading: "Proyek Saya",
       description:
-        "Beberapa proyek yang telah saya rancang dan bangun. Ganti placeholder ini dengan karya Anda sendiri.",
+        "Beberapa proyek yang telah saya rancang dan bangun.",
       filters: {
         all: "Semua",
         web: "Web",
@@ -183,7 +183,7 @@ export const translations = {
     education: {
       eyebrow: "Latar Belakang",
       heading: "Pendidikan",
-      description: "Perjalanan akademik saya sejauh ini.",
+      description: "Pendidikan akademik terbaru saya.",
     },
     experience: {
       eyebrow: "Perjalanan",
@@ -195,14 +195,14 @@ export const translations = {
       eyebrow: "Hubungi saya",
       heading: "Mari bekerja sama.",
       description:
-        "Punya proyek yang ingin didiskusikan atau sekadar ingin menyapa? Kotak masuk saya selalu terbuka.",
+        "Punya proyek yang ingin didiskusikan atau sekadar ingin menyapa? Hubungi saya melalui",
       emailLabel: "Email",
       linkedinLabel: "LinkedIn",
       githubLabel: "GitHub",
       instagramLabel: "Instagram",
     },
     footer: {
-      rights: "Hak cipta dilindungi.",
+      rights: "@hendrico.daniel.",
       builtWith: "Dibangun dengan Next.js & Tailwind CSS.",
       backToTop: "Kembali ke atas",
     },

@@ -19,9 +19,9 @@ const inter = Inter({
 });
 
 // EDIT ME: update with your real name, description and site URL.
-const SITE_NAME = "Lorem Ipsum — Portfolio";
+const SITE_NAME = "Hendrico — Portfolio";
 const SITE_DESCRIPTION =
-  "Personal portfolio of Lorem Ipsum, Product Designer & Frontend Developer.";
+  "Personal portfolio of Hendrico, Product Designer & Frontend Developer.";
 const SITE_URL = "https://your-domain.vercel.app";
 
 export const metadata: Metadata = {
