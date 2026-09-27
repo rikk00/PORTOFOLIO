@@ -12,8 +12,8 @@ import type {
 export const profile: ProfileInfo = {
   name: "Hendrico Daniel",
   title: {
-    en: "Product Designer & Frontend Developer",
-    id: "Product Designer & Frontend Developer",
+    en: "Management & Operational",
+    id: "Manajemen & Operasional",
   },
   location: "Bontang, Indonesia",
   // Replace with: /public/images/profile-placeholder.jpg
@@ -92,7 +92,7 @@ export const skills: SkillItem[] = [
 /** EDIT ME: `image` should point to a scanned certificate placed in /public/images. */
 export const certificates: CertificateItem[] = [
   {
-    id: "Certificate National Internship Program",
+    id: "Certificate-01",
     image: "/images/certificate-01.jpg",
     title: { en: "Lorem Ipsum Certification", id: "Sertifikasi Lorem Ipsum" },
     issuer: "Ministry of Manpower & PT. RALS",
@@ -100,7 +100,7 @@ export const certificates: CertificateItem[] = [
     credentialUrl: "#",
   },
   {
-    id: "certificate-02",
+    id: "Certificate-02",
     image: "/images/certificate-02.jpg",
     title: { en: "Lorem Ipsum Bootcamp", id: "Bootcamp Lorem Ipsum" },
     issuer: "Ipsum Academy",
@@ -108,7 +108,7 @@ export const certificates: CertificateItem[] = [
     credentialUrl: "#",
   },
   {
-    id: "certificate-03",
+    id: "Certificate-03",
     image: "/images/certificate-03.jpg",
     title: { en: "Lorem Ipsum Workshop", id: "Workshop Lorem Ipsum" },
     issuer: "Dolor School",
@@ -119,20 +119,20 @@ export const certificates: CertificateItem[] = [
 /** EDIT ME: Add or edit education entries, most recent first. */
 export const education: EducationItem[] = [
   {
-    id: "Sekolah Menengah Atas",
-    period: "2018 — 2021",
-    institution: "SMAN 2 Bontang",
-    degree: { en: "Bachelor's Degree — Lorem Ipsum", id: "Sarjana — Lorem Ipsum" },
+    id: "Sarjana (S-1)",
+    period: "2021 — 2025",
+    institution: "Universitas Mulawarman",
+    degree: { en: "Bachelor's Degree — Lorem Ipsum", id: "Sarjana — Sasta Inggris (S.S)" },
     description: {
-      en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Focused on coursework related to design and computing.",
-      id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Berfokus pada mata kuliah terkait desain dan komputasi.",
+      en: 'Thesis: "Sociological Analysis of The Marshall Mathers LP (2000) album by Eminem" GPA: 3.64/4.00',
+      id: 'Skripsi: "Sociological Analysis of The Marshall Mathers LP (2000) album by Eminem" IPK: 3.64/4.00',
     },
   },
   {
-    id: "education-02",
-    period: "2017 — 2020",
-    institution: "High School Name",
-    degree: { en: "Science Major", id: "Jurusan IPA" },
+    id: "Sekolah Menengah Atas (SMA)",
+    period: "2018 — 2021",
+    institution: "SMAN 2 Bontang",
+    degree: { en: "Bachelor's Degree — Lorem Ipsum", id: "Sa — Lorem Ipsum" },
     description: {
       en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
@@ -143,13 +143,13 @@ export const education: EducationItem[] = [
 /** EDIT ME: Add or edit experience entries, most recent first. */
 export const experience: ExperienceItem[] = [
   {
-    id: "experience-01",
-    period: "2024 — Present",
-    company: "Company Name",
-    position: { en: "Product Designer", id: "Product Designer" },
+    id: "Store Supervisor",
+    period: "2025 — 2026",
+    company: "PT Ramayana Lestari Sentosa Tbk",
+    position: { en: "Store Supervisor", id: "Store Supervisor" },
     description: {
-      en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      en: "Supervised, directed, and evaluated staff in the sales area at Ramayana Plaza Bontang. Managed sales targets, inventory levels, promotions, human resources, and center and selling point displays.",
+      id: "Mengawasi, mengarahkan, dan mengevaluasi rekan kerja di area penjualan Ramayana Plaza Bontang. Bertanggung jawab terhadap pencapaian target, manajemen inventaris, promosi, pengelolaan SDM, serta penataan center dan selling point.",
     },
     responsibilities: [
       { en: "Designed end-to-end product flows for the core app.", id: "Merancang alur produk end-to-end untuk aplikasi utama." },
@@ -159,13 +159,13 @@ export const experience: ExperienceItem[] = [
     tools: ["Figma", "Notion", "React"],
   },
   {
-    id: "experience-02",
-    period: "2022 — 2024",
-    company: "Previous Company",
-    position: { en: "Frontend Developer", id: "Frontend Developer" },
+    id: "Team Creative",
+    period: "2025 — 2026",
+    company: "Ramayana Department Store (R-81) Bontang",
+    position: { en: "Team Creative", id: "Tim Kreatif" },
     description: {
-      en: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
-      id: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      en: "Contributed to brainstorming, drafting, video shooting, and editing promotional store content aimed at supporting overall sales performance.",
+      id: "Terlibat langsung dalam sesi brainstorming, penyusunan naskah, pengambilan video, hingga proses finishing konten promosi toko untuk mendongkrak performa penjualan secara keseluruhan.",
     },
     responsibilities: [
       { en: "Built and maintained reusable UI components.", id: "Membangun dan memelihara komponen UI yang dapat digunakan kembali." },
@@ -173,12 +173,28 @@ export const experience: ExperienceItem[] = [
     ],
     tools: ["React", "TypeScript", "Tailwind CSS"],
   },
+    {
+    id: "Fresh Product Handling",
+    period: "2025 — 2026",
+    company: "Ramayana Department Store (R-81) Bontang",
+    position: { en: "Fresh Product Handling", id: "Fresh Product Handling" },
+    description: {
+      en: "Handled quality control, receiving and ordering processes, and inventory liquidation for fresh products.",
+      id: "Melakukan kontrol kualitas (QC), proses receiving dan ordering, serta pengelolaan likuidasi (pemusnahan) produk segar secara berkala.",
+    },
+    responsibilities: [
+      { en: "Built and maintained reusable UI components.", id: "Membangun dan memelihara komponen UI yang dapat digunakan kembali." },
+      { en: "Improved page performance and accessibility.", id: "Meningkatkan performa halaman dan aksesibilitas." },
+    ],
+    tools: ["React", "TypeScript", "Tailwind CSS"],
+  },
+
 ];
 
 /** EDIT ME: Replace with your real profile links. */
 export const socialLinks: SocialLink[] = [
-  { id: "email", label: "hello@example.com", href: "mailto:hello@example.com", icon: "email" },
-  { id: "linkedin", label: "linkedin.com/in/yourname", href: "https://linkedin.com", icon: "linkedin" },
-  { id: "github", label: "github.com/yourname", href: "https://github.com", icon: "github" },
-  { id: "instagram", label: "@yourname", href: "https://instagram.com", icon: "instagram" },
+  { id: "email", label: "danielhendrico@gmail.com", href: "mailto:danielhendrico@gmail.com", icon: "email" },
+  { id: "linkedin", label: "linkedin.com/in/hendricodaniel", href: "https://linkedin.com", icon: "linkedin" },
+  { id: "github", label: "github.com/rikk00", href: "https://github.com", icon: "github" },
+  { id: "instagram", label: "@hendriko.daniel", href: "https://instagram.com", icon: "instagram" },
 ];
