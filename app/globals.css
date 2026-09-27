@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @apply bg-mist-50 text-ink font-body antialiased;
+  @apply dark:bg-navy-950 dark:text-mist-100;
+}
+
+::selection {
+  @apply bg-teal-500/25 text-ink dark:text-mist-50;
+}
+
+/* Visible keyboard focus ring across the site */
+:focus-visible {
+  outline: 2px solid theme("colors.teal.500");
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Slim, quiet scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-mist-200 dark:bg-navy-700;
+  border-radius: 999px;
+}
+
+.skip-link {
+  @apply fixed left-4 top-4 z-[100] -translate-y-24 rounded-md bg-teal-600 px-4 py-2 text-sm font-medium text-white transition-transform;
+  @apply focus:translate-y-0;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-content px-6 sm:px-8 lg:px-10;
+}
+
+.section-eyebrow {
+  @apply text-sm font-medium tracking-wide text-teal-600 dark:text-teal-400;
+}
+
+.section-heading {
+  @apply mt-3 font-display text-3xl sm:text-4xl text-ink dark:text-mist-50;
+}
