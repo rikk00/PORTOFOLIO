@@ -86,13 +86,14 @@ just to update content.
 | Social links (email/LinkedIn/etc) | `data/portfolio.ts` → `socialLinks`      |
 | Hero copy, nav labels, buttons    | `data/translations.ts`                   |
 
-### Adding your photos
+### Adding your images
 
-The site currently renders labeled placeholder boxes instead of real
-`<img>` elements, so it runs with zero image files. See
-`public/images/README.md` for the exact steps and which components to
-update once you have real photos — it's a small, mechanical change
-(swap a placeholder `<div>` for a Next.js `<Image>`).
+Place image files in `public/images/` and set their paths in
+`data/portfolio.ts`. Certificate image paths are already configured for
+`certificate-01.jpg`, `certificate-02.jpg`, and `certificate-03.jpg`.
+See `public/images/README.md` for instructions on adding or renaming them.
+Certificate cards and their **View Certificate** preview use the configured
+image paths.
 
 Update the favicon by replacing `public/favicon.svg`, and update the site
 name/description/URL used for SEO and Open Graph tags near the top of

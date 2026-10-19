@@ -30,7 +30,7 @@ export const translations = {
       bio1:
         "Hello, I am Hendrico Daniel. An English Literature graduate from Universitas Mulawarman with hands-on experience as a retail Store Supervisor. Skilled in store operations, inventory management, data-driven promotional content creation, and active organizational leadership.",
       bio2:
-        "I also like to do a mini project to learn new things, the goals it to ease the process in daily task",
+        "I also like to do a mini project to learn new things, the goals: make a tool(s) to ease the working process of daily task",
       cards: {
         location: { label: "Location", value: "Bontang, Indonesia" },
         focus: { label: "Focus", value: "Research and Development" },
@@ -137,7 +137,7 @@ export const translations = {
       bio1:
         "Halo, Saya Hendrico Daniel. Lulusan Sastra Inggris dari Universitas Mulawarman dengan pengalaman langsung sebagai Supervisor Toko Ritel. Terampil dalam operasi toko, manajemen inventaris, pembuatan konten promosi berbasis data, dan kepemimpinan organisasi yang aktif.",
       bio2:
-        "Saya juga termotivasi untuk melakukan proyek mini untuk mempelajari hal baru, dengan tujuan mempermudah proses dalam tugas sehari-hari.",
+        "Saya juga termotivasi untuk melakukan proyek mini untuk mempelajari hal baru, dengan tujuan menciptakan alat yang mempermudah proses dalam tugas sehari-hari.",
       cards: {
         location: { label: "Lokasi", value: "Bontang, Indonesia" },
         focus: { label: "Fokus", value: "Penelitian dan Pengembangan" },

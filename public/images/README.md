@@ -1,35 +1,24 @@
-# Image placeholders
+# Adding images
 
-This project currently renders text-based placeholders instead of real
-`<img>` / `next/image` elements, so the site works out of the box with zero
-image files. When you're ready to add your real photos:
+Place image files in this folder and use their paths in `data/portfolio.ts`.
+For the three certificate entries, the expected filenames are:
 
-1. Drop your image files into this folder, for example:
-   - `profile-placeholder.jpg` — your profile photo (used in Hero + About)
-   - `project-01.jpg`, `project-02.jpg`, `project-03.jpg`, `project-04.jpg`
-   - `certificate-01.jpg`, `certificate-02.jpg`, `certificate-03.jpg`
+- `certificate-01.jpg`
+- `certificate-02.jpg`
+- `certificate-03.jpg`
 
-2. In the component files, replace the placeholder `<div>` blocks (each is
-   marked with an `EDIT ME` comment) with:
+The certificate cards and the **View Certificate** preview both use each
+entry's `image` path. If your files have different names or extensions, update
+the matching `image` value in `data/portfolio.ts` as well. Supported formats
+include common browser image formats such as JPG, PNG, and WebP.
 
-   ```tsx
-   import Image from "next/image";
+For example, to use a PNG for the first certificate, save it as
+`public/images/certificate-01.png` and update its data entry to:
 
-   <Image
-     src="/images/profile-placeholder.jpg"
-     alt="Your name"
-     fill
-     className="object-cover rounded-2xl"
-   />
-   ```
+```ts
+image: "/images/certificate-01.png",
+```
 
-   Components to update:
-   - `components/Hero.tsx`
-   - `components/About.tsx`
-   - `components/Projects.tsx`
-   - `components/Certificates.tsx`
-   - `components/CertificateModal.tsx`
-
-3. The `data/portfolio.ts` file already stores the intended path for every
-   image (`image: "/images/project-01.jpg"`, etc.) — use `project.image`,
-   `certificate.image`, and `profile.photo` as the `src` values above.
+After adding the files, run the site locally with `npm run dev`, open
+`http://localhost:3000/#certificates`, then select **View Certificate** on a
+card to preview its image.

@@ -78,8 +78,9 @@ export const projects: ProjectItem[] = [
 /** EDIT ME: Skill levels use "beginner" | "intermediate" | "advanced" — no numeric percentages, since a made-up percentage would misrepresent real ability. */
 export const skills: SkillItem[] = [
   { id: "skill-msoffice", name: "Microsoft Office", level: "intermediate", group: "technical" },
-  { id: "skill-photoshop", name: "Adobe Photoshop", level: "intermediate", group: "technical" },
+  { id: "skill-photoshop", name: "Adobe Family", level: "intermediate", group: "technical" },
   { id: "skill-Canva", name: "Canva", level: "advanced", group: "technical" },
+  { id: "skill-CapCut", name: "CapCut", level: "advanced", group: "technical" },
   { id: "skill-html", name: "HTML", level: "beginner", group: "technical" },
   { id: "skill-css", name: "CSS", level: "beginner", group: "technical" },
   { id: "skill-js", name: "JavaScript", level: "beginner", group: "technical" },

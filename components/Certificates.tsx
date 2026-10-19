@@ -6,6 +6,7 @@ import { certificates } from "@/data/portfolio";
 import type { CertificateItem } from "@/types";
 import AnimatedSection from "./AnimatedSection";
 import CertificateModal from "./CertificateModal";
+import Image from "next/image";
 
 export default function Certificates() {
   const { t, pick } = useLanguage();
@@ -26,11 +27,14 @@ export default function Certificates() {
         {certificates.map((certificate, index) => (
           <AnimatedSection key={certificate.id} delay={index * 70}>
             <div className="rounded-2xl border border-ink/10 bg-mist-50 p-5 shadow-card dark:border-mist-100/10 dark:bg-navy-800/60">
-              {/* EDIT ME: replace with a Next.js <Image /> of /public/images/certificate-0X.jpg */}
-              <div className="flex aspect-[4/3] items-center justify-center rounded-xl bg-mist-100 dark:bg-navy-700">
-                <span className="text-xs text-ink/40 dark:text-mist-100/40">
-                  {certificate.issuer}
-                </span>
+              <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-mist-100 dark:bg-navy-700">
+                <Image
+                  src={certificate.image}
+                  alt={pick(certificate.title)}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-contain p-2"
+                />
               </div>
 
               <h4 className="mt-4 font-display text-lg text-ink dark:text-mist-50">

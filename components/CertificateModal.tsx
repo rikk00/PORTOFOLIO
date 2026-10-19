@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { useLanguage } from "@/context/LanguageContext";
 import type { CertificateItem } from "@/types";
+import Image from "next/image";
 
 interface CertificateModalProps {
   certificate: CertificateItem | null;
@@ -44,7 +45,7 @@ export default function CertificateModal({ certificate, onClose }: CertificateMo
         onClick={onClose}
         aria-hidden="true"
       />
-      <div className="relative w-full max-w-lg animate-fade-up rounded-2xl bg-mist-50 p-6 shadow-soft dark:bg-navy-900">
+      <div className="relative w-full max-w-4xl animate-fade-up rounded-2xl bg-mist-50 p-6 shadow-soft dark:bg-navy-900">
         <button
           ref={closeButtonRef}
           type="button"
@@ -62,11 +63,14 @@ export default function CertificateModal({ certificate, onClose }: CertificateMo
           </svg>
         </button>
 
-        {/* EDIT ME: replace with a Next.js <Image /> of the real certificate scan */}
-        <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-ink/10 bg-mist-100 dark:border-mist-100/10 dark:bg-navy-800">
-          <span className="text-sm text-ink/40 dark:text-mist-100/40">
-            {pick(certificate.title)}
-          </span>
+        <div className="relative aspect-[4/3] max-h-[70vh] overflow-hidden rounded-xl border border-ink/10 bg-mist-100 dark:border-mist-100/10 dark:bg-navy-800">
+          <Image
+            src={certificate.image}
+            alt={pick(certificate.title)}
+            fill
+            sizes="(max-width: 768px) 100vw, 896px"
+            className="object-contain"
+          />
         </div>
 
         <h3
